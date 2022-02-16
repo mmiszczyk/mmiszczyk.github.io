@@ -1,5 +1,7 @@
 <html>
-  <body onload="alert('hello')">
-    test
+  <body>
+    <textarea id="shell"></textarea>
+	<textarea id="out"></textarea>
+	<button onclick="document.getElementById('out').value = eval(document.getElementById('shell').value)">aaa</button>
   </body>
 </html>
